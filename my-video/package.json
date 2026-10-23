@@ -8,7 +8,7 @@
     "check": "npx --yes hyperframes@0.8.186 check",
     "render": "npx --yes hyperframes@0.8.186 render",
     "publish": "npx --yes hyperframes@0.8.186 publish",
-    "test": "node --test tests/server-generator.test.mjs"
+    "test": "node --test tests/server-generator.test.mjs tests/lint-scan-hygiene.test.mjs"
   },
   "dependencies": {
     "dotenv": "^18.0.9",
