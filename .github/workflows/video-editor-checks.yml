@@ -1,0 +1,24 @@
+name: Video Editor Checks
+
+on:
+  push:
+    branches:
+      - feat/auto-process-video-backups
+  pull_request:
+    paths:
+      - "my-video/**"
+      - ".github/workflows/video-editor-checks.yml"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check server syntax
+        run: node --check my-video/server.mjs
+      - name: Run composition regression tests
+        run: npm test
+        working-directory: my-video
