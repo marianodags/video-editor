@@ -27,7 +27,9 @@ npm run check
 Alternatively set FFMPEG_PATH and FFPROBE_PATH in .env to the full executable paths. Open http://127.0.0.1:4173.
 
 ## URL and security
-Only direct HTTPS video-file URLs are supported. Social watch pages are not direct downloads; download a video you have permission to use and upload it. The server rejects private hosts, revalidates redirects, limits download size, and binds only to 127.0.0.1. Files live in uploads/, generated/, and backups/. Keep the server local.
+Only direct HTTPS video-file URLs are supported. Social watch pages are not direct downloads; download a video you have permission to use and upload it. The server rejects private hosts, revalidates redirects, limits download size, and binds only to 127.0.0.1. Files live in uploads/, .generated/, and backups/. Keep the server local.
+
+Only index.html (and anything under compositions/) is a real composition. HyperFrames Studio lints every other .html file it can see as a sub-composition and reports false errors and warnings for it, so generated previews are kept in the hidden .generated/ folder, the studio page in .studio/, and composition backups are saved as `index-before-ai-<timestamp>.html.bak`. To restore a backup, copy it over index.html.
 
 Three sampled frames cannot reliably reveal every cut, transition, or sound effect. Review captions and timings and run npm run check plus a visual preview before publishing.
 
