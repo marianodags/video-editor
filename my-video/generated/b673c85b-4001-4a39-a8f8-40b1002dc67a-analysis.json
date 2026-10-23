@@ -1,0 +1,455 @@
+{
+  "id": "b673c85b-4001-4a39-a8f8-40b1002dc67a",
+  "createdAt": "2026-10-23T06:35:10.369Z",
+  "reference": {
+    "file": "b673c85b-4001-4a39-a8f8-40b1002dc67a-reference.mp4",
+    "metadata": {
+      "duration": 47.666667,
+      "size": 4949881,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "width": 576,
+      "height": 1024,
+      "codec": "h264",
+      "frameRate": "30/1"
+    },
+    "transcript": " I'm sure you've seen videos like this go viral all the time. These are podcast videos from YouTube trimmed into short film content and they just keep going viral. The secret? They actually use AI. Go to clap.app, paste your YouTube link, choose your caption style, set the dimensions, and hit generate shorts. In just a few minutes, you'll have multiple shorts fully trimmed with captions ready to upload. It also gives you the summary, transcript, and even the virality score to help you pick the clips with the best chance of going viral. Wow! To generate your clips that really go viral, you've got to choose the podcast clip that's intriguing and hits on the hot topic this season. Now, this tool isn't free but if you see the potential to monetize your content, it's definitely worth trying out. Comment the word clap if you found this helpful and I'll see you in the next one."
+  },
+  "source": {
+    "file": "b673c85b-4001-4a39-a8f8-40b1002dc67a-source.mp4",
+    "metadata": {
+      "duration": 140.524308,
+      "size": 22408364,
+      "format": "mov,mp4,m4a,3gp,3g2,mj2",
+      "width": 720,
+      "height": 1280,
+      "codec": "h264",
+      "frameRate": "30/1"
+    },
+    "transcript": " So, before Daeko matulog, and before mag-watch ako ang face, naray ko yung isa pang awal na chismis ninyo. Like, out of the blue lang dyan kayo ito siya nga. Well, nag-discuss ko sa akong klase, ano ba? Kay, di, madyo, magsigig balik-balik sa akong unahuna, magsigig rewind sa unahuna, and gusto nung sad na ako i-share sa inyo, ah. Kay, mo dae ang ilang thinking, ah, one of my students, kay, nang-otana siya. Like, kanang nag-discuss ko, nang-otana lang, gina-in siya bang, tag-aasa Daeko, kanang-asa Daeko Gikan. teacher, teacher, where are you from? ano siya yan, ano siya, I'm from the Philippines kung sabi buhat niya nagigistulia tapad, yung classmate ano siya, nagigistulia what are you talking about? ako sanggiduol, what are you talking about? ano siya, teacher ano siya, yes teacher, you are poor dahil sinampal ako ng kahirapan dahil, ano siya, what? ano siya, teacher, you are poor Like, anak ko, asa manila ni Kikan? You are poor. Gusto ko, Kikan ka sa Pilipinas? You are poor. Well tinuod man saan nga poor ko pero Like dahil nasyokt dude ko dahil Like naingod naingod ko Naungot dahil naungot I not sure what I saying but I shocked I shocked I shocked I shocked But, my son... I'm shocked. I'm shocked. Yeah, I mean, poverty is high in the Philippines and country is poor too. Well, you're correct. It's true, but yeah, teacher is poor too. too. I know that's why I'm working here. I'm working overseas here in China to earn money. Then, she's like, she's like, okay, I don't have a problem with this class. I don't have a problem with this class. I don't have a problem with this class. I don't have a problem with this class. I don't know, but many people are doing lesson or many people are learning. Of course, they're doing it in school. But, yeah, I think, I've been telling you, but I'm not afraid of it. Like, true man sad. I'm not afraid of it. Real talk lang yung tinggal ito siya. So, mga urutin nga nito, bye na uwi, kigabi na. And, mga wash mo sa mong face. Bye-bye.",
+    "transcriptSegments": [
+      {
+        "start": 0,
+        "end": 2.34,
+        "text": "So, before Daeko matulog,"
+      },
+      {
+        "start": 2.84,
+        "end": 4.46,
+        "text": "and before mag-watch ako ang face,"
+      },
+      {
+        "start": 4.62,
+        "end": 6.48,
+        "text": "naray ko yung isa pang awal na chismis ninyo."
+      },
+      {
+        "start": 6.98,
+        "end": 9.94,
+        "text": "Like, out of the blue lang dyan kayo ito siya nga."
+      },
+      {
+        "start": 10.12,
+        "end": 11.78,
+        "text": "Well, nag-discuss ko sa akong klase, ano ba?"
+      },
+      {
+        "start": 12.38,
+        "end": 13.28,
+        "text": "Kay, di, madyo,"
+      },
+      {
+        "start": 13.639999,
+        "end": 15.5199995,
+        "text": "magsigig balik-balik sa akong unahuna,"
+      },
+      {
+        "start": 15.759999,
+        "end": 16.96,
+        "text": "magsigig rewind sa unahuna,"
+      },
+      {
+        "start": 17.119999,
+        "end": 18.699999,
+        "text": "and gusto nung sad na ako i-share sa inyo, ah."
+      },
+      {
+        "start": 19.24,
+        "end": 20.66,
+        "text": "Kay, mo dae ang ilang thinking,"
+      },
+      {
+        "start": 21.359999,
+        "end": 22.66,
+        "text": "ah, one of my students,"
+      },
+      {
+        "start": 22.779999,
+        "end": 24.08,
+        "text": "kay, nang-otana siya."
+      },
+      {
+        "start": 24.34,
+        "end": 25.74,
+        "text": "Like, kanang nag-discuss ko,"
+      },
+      {
+        "start": 25.74,
+        "end": 26.82,
+        "text": "nang-otana lang, gina-in siya bang,"
+      },
+      {
+        "start": 27.039999,
+        "end": 27.68,
+        "text": "tag-aasa Daeko,"
+      },
+      {
+        "start": 27.76,
+        "end": 28.76,
+        "text": "kanang-asa Daeko Gikan."
+      },
+      {
+        "start": 28.76,
+        "end": 30.7,
+        "text": "teacher, teacher, where are you from?"
+      },
+      {
+        "start": 30.84,
+        "end": 31.16,
+        "text": "ano siya"
+      },
+      {
+        "start": 31.16,
+        "end": 33.4,
+        "text": "yan, ano siya, I'm from the Philippines"
+      },
+      {
+        "start": 33.4,
+        "end": 35.52,
+        "text": "kung sabi buhat niya"
+      },
+      {
+        "start": 35.52,
+        "end": 37.88,
+        "text": "nagigistulia"
+      },
+      {
+        "start": 37.88,
+        "end": 39.7,
+        "text": "tapad, yung classmate"
+      },
+      {
+        "start": 39.7,
+        "end": 41.3,
+        "text": "ano siya, nagigistulia"
+      },
+      {
+        "start": 41.3,
+        "end": 42.84,
+        "text": "what are you talking about?"
+      },
+      {
+        "start": 43.22,
+        "end": 44.78,
+        "text": "ako sanggiduol, what are you talking about?"
+      },
+      {
+        "start": 45.38,
+        "end": 46.86,
+        "text": "ano siya, teacher"
+      },
+      {
+        "start": 46.86,
+        "end": 47.98,
+        "text": "ano siya, yes"
+      },
+      {
+        "start": 47.98,
+        "end": 50.079998,
+        "text": "teacher, you are poor"
+      },
+      {
+        "start": 50.079998,
+        "end": 53.26,
+        "text": "dahil sinampal ako ng kahirapan"
+      },
+      {
+        "start": 53.26,
+        "end": 55.22,
+        "text": "dahil, ano siya, what?"
+      },
+      {
+        "start": 55.8,
+        "end": 57.76,
+        "text": "ano siya, teacher, you are poor"
+      },
+      {
+        "start": 57.76,
+        "end": 61.179996,
+        "text": "Like, anak ko, asa manila ni Kikan?"
+      },
+      {
+        "start": 61.3,
+        "end": 61.899998,
+        "text": "You are poor."
+      },
+      {
+        "start": 61.96,
+        "end": 63.519997,
+        "text": "Gusto ko, Kikan ka sa Pilipinas?"
+      },
+      {
+        "start": 64.24,
+        "end": 64.72,
+        "text": "You are poor."
+      },
+      {
+        "start": 64.82,
+        "end": 75.20481,
+        "text": "Well tinuod man saan nga poor ko pero Like dahil nasyokt dude ko dahil Like naingod naingod ko Naungot dahil naungot I not sure what I saying but I shocked I shocked I shocked I shocked"
+      },
+      {
+        "start": 75.20481,
+        "end": 77.20481,
+        "text": "But, my son..."
+      },
+      {
+        "start": 77.20481,
+        "end": 79.20481,
+        "text": "I'm shocked."
+      },
+      {
+        "start": 79.20481,
+        "end": 81.20481,
+        "text": "I'm shocked."
+      },
+      {
+        "start": 81.20481,
+        "end": 87.20481,
+        "text": "Yeah, I mean, poverty is high in the Philippines and country is poor too."
+      },
+      {
+        "start": 87.20481,
+        "end": 89.20481,
+        "text": "Well, you're correct."
+      },
+      {
+        "start": 89.20481,
+        "end": 93.20481,
+        "text": "It's true, but yeah, teacher is poor too."
+      },
+      {
+        "start": 93.20481,
+        "end": 95.66481,
+        "text": "too. I know that's why I'm working here."
+      },
+      {
+        "start": 96.62481,
+        "end": 97.48481,
+        "text": "I'm working"
+      },
+      {
+        "start": 97.48481,
+        "end": 99.50481,
+        "text": "overseas here in China to"
+      },
+      {
+        "start": 99.50481,
+        "end": 100.66481,
+        "text": "earn money."
+      },
+      {
+        "start": 101.48481,
+        "end": 102.404816,
+        "text": "Then, she's like,"
+      },
+      {
+        "start": 102.404816,
+        "end": 104.38481,
+        "text": "she's like,"
+      },
+      {
+        "start": 104.38481,
+        "end": 106.48481,
+        "text": "okay,"
+      },
+      {
+        "start": 106.56481,
+        "end": 108.46481,
+        "text": "I don't have a problem with this class."
+      },
+      {
+        "start": 108.62481,
+        "end": 109.70481,
+        "text": "I don't have a problem with this class."
+      },
+      {
+        "start": 110.06481,
+        "end": 111.26482,
+        "text": "I don't have a problem with this class."
+      },
+      {
+        "start": 112.12481,
+        "end": 115.24481,
+        "text": "I don't have a problem with this class."
+      },
+      {
+        "start": 115.24481,
+        "end": 115.24481,
+        "text": ""
+      },
+      {
+        "start": 115.284805,
+        "end": 116.044815,
+        "text": "I don't know, but"
+      },
+      {
+        "start": 116.044815,
+        "end": 118.044815,
+        "text": "many people are doing"
+      },
+      {
+        "start": 118.044815,
+        "end": 120.92481,
+        "text": "lesson or many people are learning."
+      },
+      {
+        "start": 121.20481,
+        "end": 122.58481,
+        "text": "Of course, they're doing it in school."
+      },
+      {
+        "start": 123.20481,
+        "end": 125.94481,
+        "text": "But, yeah, I think,"
+      },
+      {
+        "start": 126.10481,
+        "end": 126.94481,
+        "text": "I've been telling you,"
+      },
+      {
+        "start": 127.044815,
+        "end": 128.3648,
+        "text": "but I'm not afraid of it."
+      },
+      {
+        "start": 129.5448,
+        "end": 130.94481,
+        "text": "Like, true man sad."
+      },
+      {
+        "start": 131.32481,
+        "end": 131.90482,
+        "text": "I'm not afraid of it."
+      },
+      {
+        "start": 133.18481,
+        "end": 134.7048,
+        "text": "Real talk lang yung tinggal ito siya."
+      },
+      {
+        "start": 135.24481,
+        "end": 136.2048,
+        "text": "So, mga urutin nga nito,"
+      },
+      {
+        "start": 136.4248,
+        "end": 137.4848,
+        "text": "bye na uwi, kigabi na."
+      },
+      {
+        "start": 137.7648,
+        "end": 139.18481,
+        "text": "And, mga wash mo sa mong face."
+      },
+      {
+        "start": 139.28482,
+        "end": 139.58481,
+        "text": "Bye-bye."
+      }
+    ]
+  },
+  "styleProfile": {
+    "summary": "A tutorial-style short-form video where a host demonstrates how to use an AI tool (clap.app) to convert long-form YouTube podcast videos into viral short-form clips. The video features screen recordings of the software interface, showing the process of pasting a link, generating clips, and reviewing virality scores, intercut with the host speaking directly to the camera.",
+    "platform": "TikTok",
+    "aspectRatio": "9:16",
+    "editingPace": "fast",
+    "averageShotLengthSeconds": 3.5,
+    "visualStyle": {
+      "palette": [
+        "black",
+        "white",
+        "red",
+        "purple",
+        "pink"
+      ],
+      "contrast": "high",
+      "lighting": "mixed (screen glow and studio lighting)",
+      "texture": "digital overlay with grid background"
+    },
+    "captionStyle": {
+      "enabled": true,
+      "position": "center",
+      "case": "lowercase",
+      "fontWeight": "bold",
+      "highlighting": "white text with black outline",
+      "maxWordsPerLine": 4,
+      "notes": "Captions are centered on the screen, using a clean sans-serif font. Some text overlays like 'from YouTube' use brand colors."
+    },
+    "transitions": [
+      "hard cut",
+      "screen recording overlay"
+    ],
+    "motion": {
+      "punchIns": true,
+      "zoomFrequency": "moderate",
+      "cameraMovement": "static"
+    },
+    "soundDesign": {
+      "music": "background track (implied by genre)",
+      "effects": [
+        "whooshes",
+        "clicks"
+      ],
+      "voiceover": true
+    },
+    "structure": [
+      {
+        "phase": "Hook",
+        "approxStartSeconds": 0,
+        "purpose": "Show a viral example to grab attention"
+      },
+      {
+        "phase": "Demonstration",
+        "approxStartSeconds": 10,
+        "purpose": "Screen record the AI tool usage"
+      },
+      {
+        "phase": "Feature Highlight",
+        "approxStartSeconds": 25,
+        "purpose": "Show the virality score and summary features"
+      },
+      {
+        "phase": "Outro",
+        "approxStartSeconds": 40,
+        "purpose": "Call to action and sign off"
+      }
+    ],
+    "replicationPlan": [
+      "Record a talking head segment introducing a tool or concept.",
+      "Screen record the software interface to demonstrate the workflow.",
+      "Use a grid or dark background for the talking head segments to contrast with the bright screen recordings.",
+      "Add centered, bold, white captions with black outlines for readability.",
+      "Include a clear call to action at the end."
+    ],
+    "confidenceNotes": [
+      "Platform inferred from aspect ratio and caption style typical of TikTok.",
+      "Music and sound effects are inferred from the genre and transcript, as audio is not provided.",
+      "Transitions are inferred from the visual changes between talking head and screen recording."
+    ]
+  },
+  "notes": [
+    "Analysis uses sampled frames and may miss between-frame edits.",
+    "Review captions, timings, and usage rights before publishing."
+  ]
+}
