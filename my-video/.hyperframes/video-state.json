@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "historyId": "782f9e77-dea2-419b-b692-cabf78701ccd",
+  "currentRevision": "411f3d2d-0d3e-4120-867c-b94f98f5999f",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\fd\\fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b"
+    },
+    "CLAUDE.md": {
+      "hash": "fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\fd\\fd0ea55029dfc62c31614321d782f47476d3d5daaaa4116b56318ed501911f1b"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "4fdad3450a28b91909f790a1e94d86b3a3c598ca79c344206e05100e280b73b9",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\4f\\4fdad3450a28b91909f790a1e94d86b3a3c598ca79c344206e05100e280b73b9"
+    },
+    "meta.json": {
+      "hash": "53990c2c1a015f17ead66a455a2ca4c1add5e70e549aa89b86f3712a19cdab53",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\53\\53990c2c1a015f17ead66a455a2ca4c1add5e70e549aa89b86f3712a19cdab53"
+    },
+    "package.json": {
+      "hash": "6847af65952e9cc9f3a031f682f3532cb671a3d470029c02452c6e2ce04678c4",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\68\\6847af65952e9cc9f3a031f682f3532cb671a3d470029c02452c6e2ce04678c4"
+    },
+    "package-lock.json": {
+      "hash": "7e06ef57d98a7de0e80dfca4441e608ff26b2f9a1453f6bd04d1024e6915490a",
+      "content": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\7e\\7e06ef57d98a7de0e80dfca4441e608ff26b2f9a1453f6bd04d1024e6915490a"
+    }
+  },
+  "revisions": {
+    "411f3d2d-0d3e-4120-867c-b94f98f5999f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1792732619281,
+      "endedAt": 1792732621295,
+      "files": {
+        "package-lock.json": {
+          "before": null,
+          "after": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\7e\\7e06ef57d98a7de0e80dfca4441e608ff26b2f9a1453f6bd04d1024e6915490a"
+        },
+        "package.json": {
+          "before": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\2b\\2bb7624e8c34d0c4cf2d3a7c9785404744e56740d89544a439cfa9a7122073e8",
+          "after": "C:\\Users\\MARIANO\\.cache\\hyperframes\\history\\782f9e77-dea2-419b-b692-cabf78701ccd\\blobs\\68\\6847af65952e9cc9f3a031f682f3532cb671a3d470029c02452c6e2ce04678c4"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  }
+}

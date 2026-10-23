@@ -1,0 +1,13 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+.next/
+__pycache__/
+.venv/
+venv/
+
+# FFmpeg binaries - keep locally, do not upload
+FFmpeg/

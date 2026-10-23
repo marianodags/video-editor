@@ -1,0 +1,105 @@
+﻿=== PROJECT INSPECTION ===
+Path: C:\Users\MARIANO\Desktop\Capstone Project\Video Editor\my-video
+Date: 10/23/2026 13:25:45
+
+=== NODE / NPM ===
+v24.22.1
+
+12.2.0
+
+=== FFmpeg ===
+
+
+=== PROJECT FILES (excluding dependencies and secrets) ===
+AGENTS.md
+CLAUDE.md
+hyperframes.json
+index.html
+meta.json
+package-lock.json
+package.json
+.hyperframes\hf-ids-stamped.json
+.hyperframes\history-id
+.hyperframes\video-state.json
+.hyperframes\preview\7e8de047979a27179e5d727b8e25df86.html
+.thumbnails\v5_4cd1593271297a81_f3ef73550bc4a77e_jpeg_source_index.html_1920x1080_1920x1080_1792731874870_0.00.jpg
+.thumbnails\v5_v3_4cd1593271297a81_f3ef73550bc4a77e_jpeg_preview_index.html_1920x1080_240x135_1792731874870_3.00.jpg
+
+=== FILE: package.json ===
+{
+  "name": "my-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.8.186 preview",
+    "check": "npx --yes hyperframes@0.8.186 check",
+    "render": "npx --yes hyperframes@0.8.186 render",
+    "publish": "npx --yes hyperframes@0.8.186 publish"
+  },
+  "dependencies": {
+    "groq-sdk": "^1.6.0"
+  }
+}
+
+=== FILE: index.html ===
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      /* Placeholders: replace all three with the film's own palette and display face. */
+      :root {
+        --ground: #6b6b6b;
+        --ink: #ffffff;
+        --font-display: sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--ground);
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--font-display);
+      }
+      #title {
+        color: var(--ink);
+        font-size: 72px;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-hf-id="hf-199x"
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="10"
+      data-width="1920"
+      data-height="1080"
+    >
+      <h1 data-hf-id="hf-v7pl" id="title" class="clip" data-start="0" data-duration="10" data-track-index="0">Title</h1>
+    </div>
+    <script>
+      const tl = gsap.timeline({ paused: true });
+      // Example: tl.fromTo("#title", { opacity: 0, filter: "blur(8px)" }, { opacity: 1, filter: "blur(0px)", duration: 0.18, ease: "power4.out" }, 0);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
