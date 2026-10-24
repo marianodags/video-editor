@@ -11,3 +11,13 @@ venv/
 
 # FFmpeg binaries - keep locally, do not upload
 FFmpeg/
+
+# Local media, generated edits, and render caches
+my-video/uploads/
+my-video/renders/
+my-video/backups/
+my-video/.generated/
+my-video/.thumbnails/
+my-video/.waveform-cache/
+my-video/.hyperframes/
+*.bak

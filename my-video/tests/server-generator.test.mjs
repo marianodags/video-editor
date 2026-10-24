@@ -44,3 +44,47 @@ test("generated composition does not clamp long sources to 60 seconds", () => {
   assert.doesNotMatch(server.slice(start, end), /Math\.min\(60/);
   assert.doesNotMatch(server.slice(start, end), /Math\.min\(24/);
 });
+
+test("captions follow each transcript segment independently of video cuts", () => {
+  const html = makeHtml("uploads/source.mp4", { duration: 10 },
+    { editingPace: "slow" }, { segments: [
+      { start: 1, end: 2, text: "First <caption>" },
+      { start: 2, end: 3, text: "Second caption" },
+      { start: 9, end: 12, text: "Clamped tail" }
+    ] });
+  assert.match(html, /id="caption-0"[^>]*data-start="1.000" data-duration="1.000"/);
+  assert.match(html, /id="caption-1"[^>]*data-start="2.000" data-duration="1.000"/);
+  assert.match(html, /id="caption-2"[^>]*data-start="9.000" data-duration="1.000"/);
+  assert.ok(html.includes("First &lt;caption&gt;"));
+  assert.match(html, /\.caption\{[^}]*z-index:2/);
+});
+
+test("missing transcription does not invent captions and explicit style options are respected", () => {
+  const empty = makeHtml("uploads/source.mp4", { duration: 10 }, {}, { segments: [] });
+  assert.doesNotMatch(empty, /YOUR HOOK GOES HERE|id="caption-/);
+  const html = makeHtml("uploads/source.mp4", { duration: 10 }, {
+    aspectRatio: "16:9", platform: "TikTok", captionStyle: { enabled: false }, motion: { punchIns: false }
+  }, { segments: [{ start: 1, end: 2, text: "Hidden" }] });
+  assert.match(html, /data-width="1920" data-height="1080"/);
+  assert.doesNotMatch(html, /id="caption-|tl.fromTo/);
+  for (const [aspectRatio, height] of [["1:1", 1080], ["4:5", 1350]]) {
+    assert.ok(makeHtml("source.mp4", { duration: 10 }, { aspectRatio }, {}).includes(`data-width="1080" data-height="${height}"`));
+  }
+});
+
+test("silent footage does not create an audio track referencing a missing stream", () => {
+  const html = makeHtml("source.mp4", { duration: 10, hasAudio: false }, {}, {});
+  assert.doesNotMatch(html, /<audio/);
+  assert.match(html, /<video/);
+});
+
+test("long transcript segments become short caption groups without losing words", () => {
+  const text = "one two three four five six seven eight nine ten eleven twelve thirteen";
+  const html = makeHtml("source.mp4", { duration: 12 }, {}, {
+    segments: [{ start: 1, end: 10, text }]
+  });
+  const captions = [...html.matchAll(/<div id="caption-\d+"[^>]*>([^<]+)<\/div>/g)].map(match => match[1]);
+  assert.equal(captions.join(" "), text);
+  assert.ok(captions.every(caption => caption.split(" ").length <= 6));
+  assert.equal(captions.length, 3);
+});

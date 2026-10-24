@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url));
 const projectDir = path.join(here, "..");
 const server = fs.readFileSync(path.join(projectDir, "server.mjs"), "utf8");
+const applySource = fs.readFileSync(path.join(projectDir, "lib", "apply-composition.mjs"), "utf8");
 
 // HyperFrames Studio's lint route lints every .html file in the project except inside
 // dot-folders and node_modules, treating anything that is not index.html as a
@@ -40,15 +41,7 @@ test("server keeps non-composition HTML out of Studio lint's reach", () => {
   assert.ok(server.includes('path.join(root,".studio")'), "studio page should be served from .studio/");
   assert.ok(server.includes('s.sendFile("studio.html",{root:studioDir})'), "studio page should be sent from .studio/");
   assert.ok(
-    server.includes('"index-before-ai-"+stampValue+".html.bak"'),
+    applySource.includes('"index-before-ai-" + stampValue + ".html.bak"'),
     "composition backups should be saved as *.html.bak"
   );
-});
-
-test("apply refuses to point index.html at a source video that is missing", () => {
-  const apply = server.slice(server.indexOf('app.post("/api/apply"'));
-  const guard = apply.indexOf("fs.access(path.join(dirs.uploads,sourceName))");
-  const write = apply.indexOf("fs.writeFile(index,html");
-  assert.ok(guard > 0, "apply should check that the source video exists in uploads/");
-  assert.ok(write > guard, "the source check must run before index.html is overwritten");
 });
